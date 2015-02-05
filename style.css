@@ -1,63 +1,64 @@
-.container {
-width: auto;
-height: 600px;
-position: relative;
+* {
+	margin: 0;
 }
 
-#nav {
-background-color: #333333;
-height:30px;
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
 
+.container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
 }
 
 li a {
-text-decoration: none;
-font-family: arial;
-color: #ABABAB;
-float: left;
-padding: 5px;
-font-size: 13px;
-font-weight: 600;
-margin-top: 2px;
-margin-right: 13px;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	font-family: arial;
+	color: black;
+	float: left;
+	padding: 5px;
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 2px;
+	margin-right: 13px;
+}
 
+#nav {
+	height:30px;
+	text-align: right;
+	width: 100%;
+}
+
+#nav li {
+	float: right;
 }
 
 img {
-margin-left: 130px;
-margin-top: 195px;
-}
-
-#sign {
-border: 2px solid #D94A4A;
-background-color: #D94A4A;
-height: 16px;
-width: 65px;
-float: right;
-margin-right: 40px;
-margin-top: 20px;
-border-radius: 3px;
-font-size: 11px;
-font-family: arial;
-text-align: center;
-color: white;
-font-weight: 600;
-padding-top: 7px;
-
+	width: 269px;
+	height: 95px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
 }
 
 input {
-width: 550px;
-height: 25px;
-border: 1px solid #3492F7;
-margin-top: 290px;
-margin-left: 670px;
+	width: 550px;
+	height: 25px;
+	border: 1px solid #3492F7;
+	margin-top: 26%;
+	margin-left: 33%;
+	margin-right: 67%;
 }
 
-#footer {
-position: relative;
-bottom: 0;
-font-family: verdana;
-display: inline;
+#footer, .push {
+	height: 4em;
+}
 
+ul {
+	list-style-type: none;
 }
